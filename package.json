@@ -1,0 +1,21 @@
+{
+  "name": "house-up-video-service",
+  "version": "1.0.0",
+  "description": "Video Streaming service for houseup",
+  "main": "server.js",
+  "engines": {
+    "node": ">=6.2.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Arslan",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.15.3",
+    "formidable": "^1.2.2",
+    "mv": "^2.1.1",
+    "nodemon": "^1.11.0"
+  }
+}
